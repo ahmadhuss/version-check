@@ -1,0 +1,39 @@
+{
+  "type": "module",
+  "name": "version-check",
+  "version": "1.0.0",
+  "description": "A version check for a particular app",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "dev": "nodemon src/app.js",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "compare-versions": "^6.0.0-rc.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^5.13.8",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "query-string": "^8.0.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "prettier": "^2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadhuss/version-check.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmadhuss/version-check/issues"
+  },
+  "homepage": "https://github.com/ahmadhuss/version-check#readme"
+}
